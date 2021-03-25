@@ -1,0 +1,9 @@
+To generate keygen command in Mac/Linux
+
+ssh-keygen -t rsa -b 4096 -C "name-of-keygen"
+
+To retrieve public key
+
+cat ~/.ssh/id_rsa.pub
+
+
